@@ -1,31 +1,26 @@
-# Country Information App 🌍
+Explore The World - Country Information App 🌍
 
-# Name - Explore The World
+Explore The World is a user-friendly React-based application that provides detailed information about countries across the globe. The app fetches real-time data from the REST Countries API to display key details about each country, including the capital, population, region, flag, and more.
 
-This website provides detailed information about countries around the world. Built using React, the app fetches real-time data from a public API
-and displays key details such as country name, capital, population, region, and flag and many more...
+Key Features:
+   - Search by Country: Instantly retrieve country details by name.
+   - Filter by Region: Easily filter countries by their respective regions.
+   - Responsive Design: Optimized for a smooth experience on any device.
+   - Dark & Light Mode: Switch between dark and light modes for a personalized experience.
+   - API Integration: Real-time data fetched from the REST Countries API.
+   - Clean UI: Simple and intuitive interface for seamless navigation.
 
+     
+Screenshots:
 
+![Image](https://github.com/user-attachments/assets/3301740b-c909-4c2f-af07-eb21c21d3cd2)
 
-Features
-   - Search by Country: Users can search for any country and get instant details.
-   - Filter by Region: Users can filter countries by any region and get instant details.
-   - Responsive Design: Built with modern CSS to ensure smooth experience on all devices.
-   - Dark & Light Mode: User can toggle between dark and light mode.
-   - API Integration: Fetches live data using the REST Countries API.
-   - Clean UI: Simple and user-friendly interface.
+![image](https://github.com/user-attachments/assets/01a28074-5c48-4fb4-b3e5-5fe187955efa)
 
+![image](https://github.com/user-attachments/assets/ff3e1174-284b-4651-9e71-e375f2ebb5f5)
 
+![image](https://github.com/user-attachments/assets/b39e3737-df03-41d1-b93a-f14e9b1c516d)
 
-
-
-![image](https://github.com/user-attachments/assets/b7d36fc4-e802-4f61-8a50-7cef283db726)
-
-![image](https://github.com/user-attachments/assets/b1376a1d-37fa-4ab4-99be-b2f0bdf1aba0)
-
-![image](https://github.com/user-attachments/assets/6d6088cc-c592-4ef7-86f2-1de1b2c5f34f)
-
-![image](https://github.com/user-attachments/assets/fa50c216-0ae9-4ea4-8d92-d4045e51f565)
 
 
 URL: https://country-information-app-chi.vercel.app/
