@@ -1,0 +1,17 @@
+.filter-region{
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 8px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    outline: none;
+}
+
+
+
+.filter-region.dark{
+    background-color: #242424;
+    color: whitesmoke;
+}

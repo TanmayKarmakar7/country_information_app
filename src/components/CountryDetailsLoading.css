@@ -1,0 +1,101 @@
+.country----container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 35px;
+    margin: 75px 0 0;
+}
+.country----flag{
+    width: 40%;
+    height: 300px;
+    margin-top: 10px;
+    background-color: rgb(235, 235, 235);
+}
+.country----details{
+    width: 54%;
+}
+.country----details .name{
+    height: 35px;
+    width: 250px;
+    background-color: rgb(235, 235, 235);
+    margin-top: 10px;
+}
+.country----details ul{
+    margin-top: 35px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+.country----details ul li:nth-child(1), .country----details ul li:nth-child(3), .country----details ul li:nth-child(5), .country----details ul li:nth-child(8), .country----details ul li:nth-child(12){
+    height: 17px;
+    width: 240px;
+    background-color: rgb(235, 235, 235);
+}
+.country----details ul li:nth-child(2), .country----details ul li:nth-child(4), .country----details ul li:nth-child(7), .country----details ul li:nth-child(13){
+    height: 17px;
+    width: 200px;
+    background-color: rgb(235, 235, 235);
+}
+.country----details ul li:nth-child(6), .country----details ul li:nth-child(9), .country----details ul li:nth-child(3), .country----details ul li:nth-child(10), .country----details ul li:nth-child(11){
+    height: 17px;
+    width: 280px;
+    background-color: rgb(235, 235, 235);
+}
+@media (width < 1080px){
+    .country----container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+    .country----flag{
+        width: 80%;
+        height: 400px;
+    }
+    .country----details{
+        width: 80%;
+    }
+    .country----details ul li:nth-child(1), .country----details ul li:nth-child(3), .country----details ul li:nth-child(5), .country----details ul li:nth-child(8), .country----details ul li:nth-child(12){
+        width: 290px;
+    }
+    .country----details ul li:nth-child(2), .country----details ul li:nth-child(4), .country----details ul li:nth-child(7), .country----details ul li:nth-child(13){
+        width: 250px;
+    }
+    .country----details ul li:nth-child(6), .country----details ul li:nth-child(9), .country----details ul li:nth-child(3), .country----details ul li:nth-child(10), .country----details ul li:nth-child(11){
+        width: 330px;
+    }
+}
+@media (width < 768px){
+    .country----details ul li:nth-child(1), .country----details ul li:nth-child(3), .country----details ul li:nth-child(5), .country----details ul li:nth-child(8), .country----details ul li:nth-child(12){
+        width: 250px;
+    }
+    .country----details ul li:nth-child(2), .country----details ul li:nth-child(4), .country----details ul li:nth-child(7), .country----details ul li:nth-child(13){
+        width: 200px;
+    }
+    .country----details ul li:nth-child(6), .country----details ul li:nth-child(9), .country----details ul li:nth-child(3), .country----details ul li:nth-child(10), .country----details ul li:nth-child(11){
+        width: 280px;
+    }
+    .country----flag{
+        width: 95%;
+        height: 280px;
+    }
+    .country----details{
+        width: 95%;
+    }
+}
+@media (width < 600px){
+    .country----details ul{
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+}
+@media (width < 500px){
+    .country----flag{
+        height: 250px;
+    }
+    .country----details ul{
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+}

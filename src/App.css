@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration-line: none;
+}
+
+main{
+  min-height: calc(100vh - 62.5px);
+  background-color: whitesmoke;
+  color: #101010;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 25px 0; */
+}
+
+
+.search-filter-container{
+  padding: 45px 25px 25px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* Dark mode */
+main.dark {
+  background-color: #151515;
+  color: whitesmoke;
+}
+
+
+@media (width < 600px){
+  .countries-container{
+      justify-content: center;
+  }
+  .search-filter-container{
+      flex-direction: column;
+      gap: 20px;
+  }
+  .search-filter-container input{
+      width: 300px;
+  }
+  .filter-region{
+      width: 345px;
+      padding: 5px 10px;
+  }
+  .country-card{
+      width: 340px;
+  }
+  .country-flag{
+      height: 200px;
+  }
+  .country-details h3{
+      font-size: 22px;
+      font-weight: 900;
+  }
+  .country-details p{
+      font-size: 16px;
+  }
+  .country-details p b{
+      font-size: 17px;
+      font-weight: 800;
+  }
+}
+@media (width < 360px){
+  .search-filter-container input{
+      width: 260px;
+  }
+  .filter-region{
+      width: 305px;
+      padding: 5px 10px;
+  }
+  .country-card{
+      width: 300px;
+  }
+}
