@@ -23,4 +23,4 @@ Screenshots:
 
 
 
-URL: https://country-information-app-chi.vercel.app/
+URL: https://country-information-app-by-tanmay.vercel.app/
